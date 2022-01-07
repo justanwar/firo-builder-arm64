@@ -21,6 +21,7 @@ Then build Firo
 ```
 ./autogen.sh && ./configure --prefix=$PWD/depends/aarch64-linux-gnu && make -j$(nproc)
 ```
+If you are not using the QT wallet, you can save time not building it by passing the `--without-gui` argument to `./configure`
 ## Copy binary out of Docker
 Open a new terminal. Then get the container ID to copy from:
 ```
