@@ -2,11 +2,11 @@ Compiles arm64 Firo binaries for 64-bit Rapsberry Pis. Based on [the Firo builde
 
 Build the dockerfile:
 ```
-sudo docker build -t firo-builder-arm64 .
+docker build -t firo-builder-arm64 .
 ```
 ## Start build environment
 ```
-sudo docker run --rm -it firo-builder-arm64
+docker run --rm -it firo-builder-arm64
 ```
 ## Get Firo source
 ```
